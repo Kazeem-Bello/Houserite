@@ -1,10 +1,8 @@
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #fff;
-
-
 }
 header {
   display: flex;
@@ -12,7 +10,7 @@ header {
   align-items: center;
   padding: 10px 10%;
   background-color: #f8f8fa;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-size: 1.3em;
 }
 
@@ -22,99 +20,105 @@ header #logo-image {
 }
 
 nav a {
-margin: 0 15px;
-text-decoration: none;
-color: #0c0c0c;
-font-weight: 500;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #0c0c0c;
+  font-weight: 500;
 }
 
 a:hover {
-color: #001f4d;
+  color: #001f4d;
 }
 
-.button{
+.button {
   border-radius: 30px;
   background: #007bff;
   padding: 10px 15px;
   color: white;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .hero {
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 60px 10%;
-background: #f7f7f8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 10%;
+  background: #f7f7f8;
 }
 .hero-text {
-max-width: 50%;
+  max-width: 50%;
 }
 .hero-text h1 {
-font-size: 2.5em;
-color: #001f4d;
+  font-size: 2.5em;
+  color: #001f4d;
 }
 .hero-text h1 span {
-color: #007bff;
+  color: #007bff;
 }
 .hero-text p {
-margin-top: 15px;
-color: #555;
-font-size: 1em;
+  margin-top: 15px;
+  color: #555;
+  font-size: 1em;
 }
 .buttons a {
-margin: 15px 10px 0 0;
-display: inline-block;
-padding: 12px 20px;
-border-radius: 5px;
-color: white;
-background: #007bff;
-text-decoration: none;
-font-weight: bold;
+  margin: 15px 10px 0 0;
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 5px;
+  color: white;
+  background: #007bff;
+  text-decoration: none;
+  font-weight: bold;
 }
-.stats {
-display: flex;
-gap: 20px;
-margin-top: 30px;
-}
-.stats div {
-text-align: center;
-}
+
 .download-section {
-background: #001f4d;
-color: white;
-padding: 60px 10%;
-display: flex;
-justify-content: space-between;
-align-items: center;
+  background: #001f4d;
+  color: white;
+  padding: 60px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .download-text {
-max-width: 50%;
+  max-width: 50%;
 }
 .download-text h2 {
-color: #fff;
-margin-bottom: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.stats {
+  display: flex;
+  gap: 70px;
+  margin: 50px 0px;
+}
+.stats div {
+  text-align: center;
+}
+#box {
+  border-right: 2px outset white;
+  border-left: 2px outset white;
+  padding: 0px 12%;
 }
 .download-cards {
-display: flex;
-gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 .download-cards div {
-background: #0a2c6b;
-padding: 20px;
-border-radius: 10px;
-text-align: center;
-width: 180px;
+  background: #0a2c6b;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 180px;
 }
 .download-cards div i {
-font-size: 2em;
-margin-bottom: 10px;
+  font-size: 2em;
+  margin-bottom: 10px;
 }
 .how-it-works {
-padding: 60px 10%;
-background: #fff;
+  padding: 60px 10%;
+  background: #fff;
 }
 .how-it-works h2 {
-text-align: center;
-color: #001f4d;
+  text-align: center;
+  color: #001f4d;
 }
