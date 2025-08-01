@@ -70,7 +70,6 @@ a:hover {
   text-decoration: none;
   font-weight: bold;
 }
-
 .download-section {
   background: #001f4d;
   color: white;
@@ -114,6 +113,11 @@ a:hover {
   font-size: 2em;
   margin-bottom: 10px;
 }
+
+.download-cards div a {
+  color: #00aaff;
+}
+
 .how-it-works {
   padding: 60px 10%;
   background: #fff;
@@ -121,4 +125,7 @@ a:hover {
 .how-it-works h2 {
   text-align: center;
   color: #001f4d;
+}
+.how-it-works h2 span {
+  color: #007bff;
 }
