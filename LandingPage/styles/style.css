@@ -6,10 +6,10 @@ body {
 }
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between;                                                                 
   align-items: center;
   padding: 10px 10%;
-  background-color: #f8f8fa;
+  background-color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-size: 1.3em;
 }
@@ -20,7 +20,7 @@ header #logo-image {
 }
 
 nav a {
-  margin: 0 15px;
+  margin: 0 25px;
   text-decoration: none;
   color: #0c0c0c;
   font-weight: 500;
@@ -129,3 +129,124 @@ a:hover {
 .how-it-works h2 span {
   color: #007bff;
 }
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+  body {
+    font-size: 0.8em;
+  }
+  header {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  header #logo-image {
+    margin-top: 5px;
+    width: auto;
+    height: 60px;
+
+  }
+  nav {
+    width: 100%;
+    margin: 8px 5px 0px 8px;
+
+    
+  }
+
+  nav a {
+    margin: 0 9px 5px 0;
+    display: inline-block;
+    
+  }
+
+  .button {
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 0.8em;
+    font-size: 0.8em;
+    text-align: center;
+
+  }
+
+  .hero {
+    flex-direction: column;
+    padding: 30px 10%;
+    text-align: center;
+  }
+
+  .hero-text, .download-text {
+    max-width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 2em;
+  }
+
+  .hero-image {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .download-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 10px;
+  }
+
+  .stats {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #box {
+    border: none;
+    padding: 0;
+  }
+
+  .download-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .download-cards div {
+    width: 100%;
+  }
+  .how-it-works {
+  padding: 30px 10px;
+  background: #eb0808;
+  }
+}
+
+
+/* Medium devices (tablets, less than 1024px) */
+@media (max-width: 1023px) {
+  .hero {
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .hero-text, .download-text {
+    max-width: 100%;
+  }
+
+  .download-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .stats {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .download-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .download-cards div {
+    width: 80%;
+  }
+}
+
